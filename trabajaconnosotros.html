@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Trabajo</title>
+    <style>
+         
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            nav {
+                background-color: #9b4e4e;
+                padding: 10px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                margin: 0 10px;
+                font-weight: bold;
+            }
+            
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+
+        
+    </style>
+    
+    <nav>
+        <a href="principal.html">REGRESAR A LA PAGINA PRINCIPAL</a>
+        
+    </nav>
+</head>
+<body bgcolor="pink">
+    <h2>Formulario de Solicitud de Trabajo</h2>
+    <form action="submit.php" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        
+        <label for="experiencia">Experiencia Laboral:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+        
+        <label for="cv">Adjuntar CV:</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
