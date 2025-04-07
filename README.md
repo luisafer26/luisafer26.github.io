@@ -3,44 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #9b4e4e;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0 10px;
-            font-weight: bold;    
-        }
-        .banner {
-            width: 100%;
-            height: 73vh;
-            background: url("imagenes/fondo2.png");
-        }
-        .content {
-            padding: 20px;
-        }
-        h1 {
-            color: #D32F2F;
-        }
-        h2 {
-            color: #444444;
-        }
-        p {
-            color: #666;
-            font-size: 18px;
-      }
-   </style>
+   
 </head>
 <body>
     <nav>
